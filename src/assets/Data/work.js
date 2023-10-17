@@ -7,10 +7,27 @@ import wastelad from "../Images/wastelandprophet4.png";
 
 
 
-export default data = [
+const  data = [
     {
         "image": circles,
-        "name": "",
-        "description": ""
+        "name": "123",
+        "description": "description1"
+        },
+        {
+            "image": folliage,
+            "name": "123",
+            "description": "description2"
+        },
+        {
+            "image": sunken,
+            "name": "123",
+            "description": "description3"
+        },
+        {
+            "image": nexus,
+            "name": "123",
+            "description": "description4"
         }
     ]
+
+    export default data

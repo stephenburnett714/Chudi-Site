@@ -20,7 +20,7 @@ export default function Header() {
       };
     }, []);
   return (
-    <div className={`${scrolled ? "bg-white" : "bg-yellow-200"} p-4 fixed bg-white w-[100%]`}>
+    <div className={`${scrolled ? "bg-black text-white" : "bg-yellow-200"} p-4 fixed w-[100%] z-50`}>
         {/* Larger Screens */}
         <div className='hidden sm:flex flex-row'>
             <div className="sm:text-xs lg:text-base pr-2 cursor-pointer" >HOME</div>

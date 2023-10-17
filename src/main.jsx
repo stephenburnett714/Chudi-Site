@@ -7,6 +7,7 @@ import Animation from './Components/Animation.jsx'
 import Home from './Components/Home.jsx'
 import ComputerScience from './Components/ComputerScience.jsx'
 import GameDesign from './Components/GameDesign.jsx'
+import MyWork from './Components/MyWork.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/game-design',
         element: <GameDesign/>
+      },
+      {
+        path: '/my-work',
+        element: <MyWork/>
       }
     ],
   }

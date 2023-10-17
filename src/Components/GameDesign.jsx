@@ -9,7 +9,7 @@ import aethersphere from "../assets/Images/aetherspherephoto2.png";
 export default function GameDesign() {
 
   return (
-    <div className="pt-16 pb-8">
+    <div className="pt-16 pb-8 bg-chudi-blue ">
 
       {/* Game Design Info */}
       <div className="py-4 px-8">

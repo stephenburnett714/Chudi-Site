@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Animation() {
   return (
-    <div className="px-8">
+    <div className="px-8 bg-chudi-blue">
       <div>
         <div className="text-2xl">Animation</div>
         <div>

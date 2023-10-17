@@ -3,7 +3,7 @@ import gameu from "../assets/Images/gameu.png";
 
 export default function ComputerScience() {
   return (
-    <div className="py-4 px-8">
+    <div className="py-4 px-8 bg-chudi-blue">
       {/* Computer Science */}
       <div>
         <div className="text-2xl">Computer Science</div>
